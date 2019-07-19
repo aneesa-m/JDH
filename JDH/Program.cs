@@ -10,6 +10,7 @@ namespace JDH
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Hey Josh! Click Enter to see my secret message to you");
             Console.ReadLine();
             Console.WriteLine("I miss you! <3");
